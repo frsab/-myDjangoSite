@@ -17,13 +17,6 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^MonApplication1/', include('MonApplication1.urls')),
+    url(r'^appClient/', include('appClient.urls')),
     url(r'^admin/', admin.site.urls),
 ]
-#from django.conf.urls import include, url
-#from django.contrib import admin
-
-#urlpatterns = [
- #   url(r'^MonApplication1/', include('polls.urls')),
-  #  url(r'^admin/', admin.site.urls),
-#]
